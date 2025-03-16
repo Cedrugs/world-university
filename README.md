@@ -53,10 +53,3 @@ For inquiries, suggestions, or feedback, please reach out to us at [youremail@ex
 A special thanks to the contributors, libraries, and APIs that helped bring this project to life. Your support is invaluable!
 
 Thank you for your interest in WorldUniversity! We hope it serves as a reliable resource for students seeking information about countries worldwide.
-```
-
-### Notes
-- Make sure to replace the placeholder logo URL with a valid image link to your project logo.
-- Update the contact email with your actual email address.
-- Adjust the GitHub repository link to the correct URL containing your project.
-- If there are any additional acknowledgments or special mentions, feel free to add them in the "Acknowledgments" section.
