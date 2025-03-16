@@ -19,7 +19,7 @@ const Home = () => {
     }, [setCountries]);
 
     return (
-        <div>
+        <div className="container mx-auto p-4">
             <h1 className="text-4xl text-center my-4">Welcome to WorldUniversity</h1>
             <h2 className="text-2xl text-center mb-4">Popular Countries</h2>
             <div className="flex flex-wrap justify-center">

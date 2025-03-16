@@ -9,7 +9,7 @@ const CountryFilter = () => {
     const filteredCountries = region ? countries.filter(country => country.region === region) : countries;
 
     return (
-        <div>
+        <div className='flex flex-col justify-center items-center gap-4'>
             <h1 className="text-2xl text-center my-4">Filter Countries by Region</h1>
             <select className="border rounded p-2" onChange={(e) => setRegion(e.target.value)}>
                 <option value="">All Regions</option>

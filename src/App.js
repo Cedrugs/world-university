@@ -11,27 +11,20 @@ import About from './pages/About';
 
 const App = () => (
     <CountryProvider>
-        {/* <Router>
-            <Header />
-            <Switch>
-                <Route path="/" exact component={Home} />
-                <Route path="/search" component={CountrySearch} />
-                <Route path="/filter" component={CountryFilter} />
-                <Route path="/about" component={About} />
-                <Route path="/country/:countryName" component={CountryDetail} />
-            </Switch>
-            <Footer />
-        </Router> */}
         <BrowserRouter>
-            <Header />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/search" element={<CountrySearch />} />
-                <Route path="/filter" element={<CountryFilter />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/country/:countryName" element={<CountryDetail />} />
-            </Routes>
-            <Footer />
+            <div className='flex flex-col min-h-screen'>
+              <Header />
+              <div className='flex flex-grow justify-center items-center'>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/search" element={<CountrySearch />} />
+                    <Route path="/filter" element={<CountryFilter />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/country/:countryName" element={<CountryDetail />} />
+                </Routes>
+              </div>
+              <Footer />
+            </div>
         </BrowserRouter>
     </CountryProvider>
 );

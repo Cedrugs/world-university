@@ -10,7 +10,7 @@ const CountrySearch = () => {
     );
 
     return (
-        <div>
+        <div className='flex flex-col justify-center items-center gap-4'>
             <h1 className="text-2xl text-center my-4">Search for a Country</h1>
             <input
                 type="text"
