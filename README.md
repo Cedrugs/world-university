@@ -47,7 +47,7 @@ Please ensure your contributions adhere to our coding standards and include docu
 This project is licensed under the MIT License - see the [LICENSE](https://mit-license.org/) file for details.
 
 ## Contact
-For inquiries, suggestions, or feedback, please reach out to us at [youremail@example.com](mailto:youremail@example.com).
+For inquiries, suggestions, or feedback, please reach out to us at [ceds.sam@gmail.com](mailto:ceds.sam@gmail.com).
 
 ## Acknowledgments
 A special thanks to the contributors, libraries, and APIs that helped bring this project to life. Your support is invaluable!
